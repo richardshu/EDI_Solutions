@@ -1,0 +1,63 @@
+/* all pages */
+
+body {
+	background-color: #eff0f1;
+	/*font-family: Vollkorn;*/
+}
+
+.center {
+	text-align: center;
+}
+
+.card {
+	border: none;
+}
+
+/* navigation bar */
+
+.navbar {
+	background-color: #fff;
+}
+
+.navbar-brand {
+	color: #686868 !important;
+}
+
+.navbar-brand:hover {
+	color: #000 !important;
+}
+
+
+/* main content section */
+
+.main-content {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#welcome_section {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#client_logos_container {
+	padding-top: 2em;
+	background-color: #ffffff;
+}
+
+#client_logos {
+	width: 75%;
+	height: auto;
+}
+
+/* footer */
+
+footer {
+	color: #ffffff;
+	background-color: #151B26;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
