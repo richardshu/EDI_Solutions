@@ -1,74 +1,120 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>EDI Solutions</title>
+		<title>EDI Solutions Corp.</title>
 		<meta charset="utf-8">
-		<meta name="author" content="Kenneth Shu">
-		<meta name="keywords" content="EDI, EDI Solutions, electronic data interchange">
-		<meta name="description" content="EDI Solutions official website">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" 	 content="EDI Solutions Corp.">
+		<meta name="keywords" 	 content="EDI Solutions Corp, edi solutions corp, EDI Solutions, edi solutions, EDI, edi, electronic data interchange">
+		<meta name="description" content="EDI Solutions Corp.">
+		<meta name="viewport" 	 content="width=device-width, initial-scale=1.0">
+
+		<!-- Open Graph meta tags = control how URLs are displayed when shared on social media (e.g. Facebook, Twitter, LinkedIn) --> 
+		<meta property="og:site_name" 	 content="EDI Solutions Corp."/>
+		<meta property="og:title" 		 content="EDI Solutions Corp."/>
+		<meta property="og:url" 		 content="https://edisolutions.com/"/>
+		<meta property="og:type" 		 content="website"/>
+		<meta property="og:locale" 		 content="en_US"/>
+		<meta property="og:description"  content="EDI Solutions Corp."/>
+		<meta property="og:image" 		 content="https://edisolutions.com/images/compressed/backgrounds/index_bg.jpg"/>
+		<meta property="og:image:width"  content="5418"/>
+		<meta property="og:image:height" content="2419"/>
 		
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="css/animate.css"/>
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="css/bootstrap.css"/>
 		<!-- Favicon -->
-		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+		<link rel="shortcut icon" type="image/png" href="images/edi_logo.png"/>
+		<!-- Google Fonts -->
+		<link rel="stylesheet" href="css/googlefonts_lato.css"/>
 		<!-- Styling -->
 		<link rel="stylesheet" href="css/style.css"/>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-			<div class="container">
-				<a class="navbar-brand" href="index.html">
-					<!-- <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> -->
-				    EDI Solutions
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<!-- Navbar -->
+		<nav class="navbar navbar-light fixed-top animated fadeInDown">
+			<a class="navbar-brand" href="index.html">
+				<img id="logo" src="images/edi_solutions_logo.png" width="165" height="30">
+			</a>
+			<a href="javascript:void(0)" class="icon" onclick="toggleDropdownNav()">
 				<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav">
-						<li class="nav-item active">
-							<a class="nav-link" href="about.html">About Us</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="services.html">Services</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="clients.html">Clients</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contact.html">Contact Us</a>
-						</li>
-					</ul>
-				</div>
-			</div>
+			</a>
+			<a class="navbar-brand active" href="about.html">About</a>
+			<a class="navbar-brand" href="clients.html">Clients</a>
+			<a class="navbar-brand" href="services.html">Services</a>
+			<a class="navbar-brand" href="contact.html">Contact</a>
 		</nav>
 
-		<div class="main-content container">
-			<h4>What is EDI?</h4>
-			<p>
-				EDI Solutions provides EDI full services, outsourcing, AS2 setup, barcode label printing, UPC ticket printing, mapping, in-house accounting and EDI interface creation, custom programming, turnkey EDI system and consulting services specifically for the Electronic Commerce / Electronic Data Interchange applications. All EDI Solutions services are proven and guaranteed. With more than 15 years of industry experiences, and a list of outstanding client references - We are ready to implement you EDI immediately. Take control of your EC/EDI initiative and your budget.
-			</p>
-			<p>
-				Each client of EDI Solutions has the same objective: implement EDI quickly with their trading partners so that orders can flow through EDI smoothly. EDI Solutions has express access to all major retailers. EDI Solutions is an approved EDI provider for most of the major retailers. This is the reason why EDI Solutions is able to set up your EDI in 1 to 3 days in most cases.
-			</p>
-			<p>
-				You do not need to purchase any EDI software. You do not need to have additional computer hardware. You do not need to have any EDI knowledge. You do not need to deal with EDI setup and testing. You do not need to tackle daily EDI transmission problems. You do not need to monitor your EDI traffic daily. You do not need to risk receiving huge chargebacks when you ship your goods. You do not need to hire EDI consultants or high salaried EDI coordinator. All you need is an Email address.
-			</p>
-			<p>
-				Our philosophy at EDI Solutions is <strong><em>WE DO WHATEVER IT TAKES TO ACHIEVE YOUR HIGHEST SATISFACTION</em></strong>
-			<p>
-			<p>
-				Happy clients refer more clients to us. That is how EDI Solutions has achieved a long list of highly satisfied clients.
-			</p>
-			<p>
-				EDI Solutions also offers <strong>PRICE GUARANTEE</strong> - within 3 months of your EDI service, if service fee is found lower elsewhere EDI Solutions will match or beat the price.
-			</p>
+		<!-- Dropdown Navbar (for mobile devices) -->
+		<div class="dropdown-nav">
+			<a class="navbar-brand active" href="about.html">About</a>
+			<a class="navbar-brand" href="clients.html">Clients</a>
+			<a class="navbar-brand" href="services.html">Services</a>
+			<a class="navbar-brand" href="contact.html">Contact</a>
 		</div>
 
-		<footer class="center">
-			+1 (909) 861-1188 | 
-			<a href="mailto:info@edisolutions.com">info@edisolutions.com</a>
+		<!-- Background Image -->
+		<img class="bg-img animated fadeInUp" src="images/compressed/backgrounds/about_bg.jpg">
+
+		<!-- Main Content -->
+		<div class="main-content animated fadeInUp">
+			<div class="container">
+				<h1 class="header-font">What is EDI?</h1>
+				<p>
+					Electronic Data Interchange, or EDI, is the technology that allows businesses to transfer information such as purchase orders and invoices electronically. EDI is responsible for bridging the gap between small businesses and large retailers.
+				</p>
+				<hr>
+				<h1 class="header-font">What We Do</h1>
+				<p>
+					EDI Solutions provides full-service EDI solutions, outsourcing, AS2 setup, barcode label printing, UPC ticket printing, mapping, in-house accounting and EDI interface creation, custom programming, turn-key EDI systems, and consulting services specifically for <em>E-commerce</em> and <em>Electronic Data Interchange</em> applications. All EDI Solutions services are proven and guaranteed. With more than 15 years of industry experiences and a list of outstanding client references, we're ready to implement EDI immediately! Take control of your e-commerce and EDI needs on a budget.
+				</p>
+				<p>
+					Each client of EDI Solutions has the same objective: implement EDI quickly with their trading partners so that orders can flow through smoothly. EDI Solutions has express access to all major retailers and is an approved EDI provider for most major retailers which is why we're usually able to set up your EDI in 1-3 days.
+				</p>
+				<p>
+					There is no need to purchase any EDI software or additional computer hardware, have any EDI knowledge, deal with EDI setup and testing, tackle daily EDI transmission problems, monitor your EDI traffic daily, risk receiving huge chargebacks when you ship your goods, or hire EDI consultants and high-salaried EDI coordinators. All you need is an email address!
+				</p>
+				<p>
+					<strong>Our mission at EDI Solutions is to do whatever it takes to achieve your highest satisfaction.</strong>
+				<p>
+				<p>
+					After all, our clients mean a lot to us, and they're often our biggest source of referral. We hope to continue serving new clients to built on our growing list of highly satisfied clients.
+				</p>
+				<p>
+					Remember, EDI Solutions offers <strong>price guarantee</strong>: within 3 months of your EDI service, if a service fee is found lower elsewhere, we will match or beat it.
+				</p>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="center animated fadeInUp">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3"></div>
+					<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+						<span>+1 (909) 861-1188</span>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+						<a href="mailto:info@edisolutions.com">info@edisolutions.com</a>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+						<span>&copy; 2020 EDI Solutions</span>
+					</div>
+					<div class="col-lg-3 col-md-3"></div>
+				</div>
+			</div>
 		</footer>
+
+		<!-- Dropdown Navbar Functionality (for mobile devices) -->
+	    <script>
+	    	function toggleDropdownNav() {
+	    		var dropdown_nav = document.getElementsByClassName("dropdown-nav")[0];
+	    		if (dropdown_nav.className == "dropdown-nav") {
+	    			dropdown_nav.className += " toggled";
+	    		} else {
+	    			dropdown_nav.className = "dropdown-nav";
+	    		}
+	    	}
+	    </script>
 	</body>
 </html>
