@@ -1,0 +1,6 @@
+canvas {
+  width: 100vw;
+  height: 60vh;
+  transform: rotate(-3deg) translate(0vw, -9.75vh) scale(1.1);
+  /* transform: skew(0deg, -3deg) translateY(-4.2rem); */
+}

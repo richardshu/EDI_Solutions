@@ -1,0 +1,115 @@
+/* PORTFOLIO section */
+
+.Home .portfolio {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, 12rem);
+  justify-content: center;
+  text-align: center;
+}
+
+.Home .portfolio-helper {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Home .portfolio img {
+  max-width: 9rem;
+  max-height: 5rem;
+}
+
+.Home .portfolio img:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 992px) {
+  .Home .portfolio {
+    grid-template-columns: repeat(auto-fit, 9rem);
+  }
+}
+
+/* HOOKS section */
+
+.Home .hook {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.Home .hook img {
+  max-width: 20rem;
+  padding: 2rem;
+}
+
+.Home .hook p {
+  max-width: 25rem;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .Home .hook-responsive {
+    flex-wrap: wrap-reverse;
+  }
+}
+
+/* SERVICES section */
+
+.Home .services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Home .services .card {
+  width: 23rem;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+  border-color: rgb(230, 234, 237) !important;
+}
+
+.Home .services .card-title {
+  font-weight: 600;
+}
+
+.Home .services .card-text {
+  margin: auto;
+  width: 15rem;
+}
+
+.Home .services .card-img-top {
+  margin: auto;
+  width: 5rem;
+  margin-top: 2rem !important;
+}
+
+.top-border {
+  border-top: 1px solid black !important;
+}
+.bottom-border {
+  border-bottom: 1px solid black !important;
+}
+.left-border {
+  border-left: 1px solid black !important;
+}
+.right-border {
+  border-right: 1px solid black !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .Home .services .card {
+    border: none !important;
+  }
+}
+
+/* HIGHLIGHT section */
+
+.highlight h1 {
+  background: linear-gradient(90deg, #5433ff, #4379ff, #1cc6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

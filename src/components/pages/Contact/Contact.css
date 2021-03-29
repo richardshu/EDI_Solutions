@@ -1,0 +1,5 @@
+@media screen and (max-width: 455px) {
+  .Contact .hand-emoji {
+    display: none;
+  }
+}

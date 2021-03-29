@@ -1,0 +1,54 @@
+.Header {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.Header .navbar-brand {
+  color: white !important;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.Header .navbar-brand:hover {
+  opacity: 0.8;
+}
+
+.Header .nav-link {
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  color: white !important;
+}
+
+.Header .nav-link:hover {
+  opacity: 0.8;
+}
+
+.Header .menu-icon {
+  outline: none !important;
+  border: none !important;
+}
+
+.Header .phone-number {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  border-radius: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (max-width: 991px) {
+  .Header .navbar-collapse {
+    background-color: #f6f6f6;
+  }
+
+  .Header .nav-link {
+    color: black !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .Header .phone-number {
+    display: none;
+  }
+}

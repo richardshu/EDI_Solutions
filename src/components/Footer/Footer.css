@@ -1,0 +1,16 @@
+.Footer {
+  text-align: center;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  background-color: #f6f6f6;
+}
+
+.Footer .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 18rem);
+  justify-content: space-evenly;
+}
+
+.footer-title {
+  font-weight: 800;
+}

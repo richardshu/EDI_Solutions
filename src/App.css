@@ -1,0 +1,67 @@
+.App {
+  font-family: "Inter", sans-serif;
+}
+
+.main-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.animated-banner-wrapper {
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.banner-text {
+  position: absolute;
+  top: 18vh;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 35rem;
+}
+
+.banner-text h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.top-section {
+  padding-top: 0;
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.section-title {
+  margin-bottom: 2rem;
+}
+
+.section-title.center {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.section-title-caption {
+  margin-bottom: 2.5rem;
+}
+
+/* utilities */
+
+h1 {
+  font-weight: 800 !important;
+}
+
+hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.bg2 {
+  background-color: #f6f6f6 !important;
+}
