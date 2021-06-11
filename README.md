@@ -1,5 +1,7 @@
-# EDI Solutions
+# EDI Solutions 💡
 
-<img width="1619" alt="edisolutions" src="https://user-images.githubusercontent.com/17105490/121655004-2104ef80-ca53-11eb-81d3-2da496fafd12.png">
+![edisolutions](https://user-images.githubusercontent.com/17105490/121659377-177d8680-ca57-11eb-8a93-44acf0fab5f6.png)
 
-A React website for a company that specializes in electronic data interchange. View the website [here](https://edisolutions.com/)!
+A React website for a company that specializes in electronic data interchange. 
+
+View the website: [edisolutions.com](https://edisolutions.com/)
